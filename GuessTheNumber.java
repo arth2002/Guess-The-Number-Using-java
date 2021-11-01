@@ -20,9 +20,9 @@ class Game{
        if (userInput == number){
            System.out.printf("You Guess right! \nYou took %d Guesses\n",totalGuesses);
            if (userInput<5) {
-               System.out.println("You've got skills");
+               System.out.println("Hey Genius");
            }
-           System.out.println("You're good");
+           System.out.println("Good Job");
            return true;
        }
        else if (userInput < number){
